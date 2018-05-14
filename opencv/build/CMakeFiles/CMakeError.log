@@ -1,0 +1,556 @@
+Compilation failed:
+    source file: '/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/cmake/checks/cxx11.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8ad4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b8ad4.dir/build.make CMakeFiles/cmTC_b8ad4.dir/build
+Building CXX object CMakeFiles/cmTC_b8ad4.dir/cxx11.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_b8ad4.dir/cxx11.cpp.o -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/cmake/checks/cxx11.cpp"
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/cmake/checks/cxx11.cpp:4:2: error: "C++11 is not supported"
+#error "C++11 is not supported"
+ ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/cmake/checks/cxx11.cpp:11:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto res = test();
+    ^
+1 warning and 1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b8ad4.dir/cxx11.cpp.o] Error 1
+make: *** [cmTC_b8ad4/fast] Error 2
+
+===== END =====
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1522/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f1522.dir/build.make CMakeFiles/cmTC_f1522.dir/build
+Building C object CMakeFiles/cmTC_f1522.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f1522.dir/CheckIncludeFile.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f1522.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_f1522/fast] Error 2
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_581cf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_581cf.dir/build.make CMakeFiles/cmTC_581cf.dir/build
+Building C object CMakeFiles/cmTC_581cf.dir/OFF64_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_581cf.dir/OFF64_T.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c"
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:19:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:20:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:21:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:22:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_581cf.dir/OFF64_T.c.o] Error 1
+make: *** [cmTC_581cf/fast] Error 2
+
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8d67/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e8d67.dir/build.make CMakeFiles/cmTC_e8d67.dir/build
+Building C object CMakeFiles/cmTC_e8d67.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e8d67.dir/CheckIncludeFile.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e8d67.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_e8d67/fast] Error 2
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51fb3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_51fb3.dir/build.make CMakeFiles/cmTC_51fb3.dir/build
+Building C object CMakeFiles/cmTC_51fb3.dir/int8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_51fb3.dir/int8.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c"
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:19:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:20:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:21:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:22:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:23:12: error: use of undeclared identifier 'INT8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_51fb3.dir/int8.c.o] Error 1
+make: *** [cmTC_51fb3/fast] Error 2
+
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23e4f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_23e4f.dir/build.make CMakeFiles/cmTC_23e4f.dir/build
+Building C object CMakeFiles/cmTC_23e4f.dir/int16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_23e4f.dir/int16.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c"
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:19:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:20:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:21:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:22:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:23:12: error: use of undeclared identifier 'INT16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_23e4f.dir/int16.c.o] Error 1
+make: *** [cmTC_23e4f/fast] Error 2
+
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c591/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0c591.dir/build.make CMakeFiles/cmTC_0c591.dir/build
+Building C object CMakeFiles/cmTC_0c591.dir/int32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0c591.dir/int32.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c"
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:19:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:20:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:21:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:22:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:23:12: error: use of undeclared identifier 'INT32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_0c591.dir/int32.c.o] Error 1
+make: *** [cmTC_0c591/fast] Error 2
+
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-variable', did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-unused-but-set-variable'
+===== BUILD LOG =====
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73c47/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_73c47.dir/build.make CMakeFiles/cmTC_73c47.dir/build
+Building C object CMakeFiles/cmTC_73c47.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -fPIE   -Wno-unused-but-set-variable -o CMakeFiles/cmTC_73c47.dir/src.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c"
+warning: unknown warning option '-Wno-unused-but-set-variable'; did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_73c47
+/usr/local/Cellar/cmake/3.8.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73c47.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_73c47.dir/src.c.o  -o cmTC_73c47 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e241d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e241d.dir/build.make CMakeFiles/cmTC_e241d.dir/build
+Building C object CMakeFiles/cmTC_e241d.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG -fPIE   -Wno-maybe-uninitialized -o CMakeFiles/cmTC_e241d.dir/src.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c"
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_e241d
+/usr/local/Cellar/cmake/3.8.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e241d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_e241d.dir/src.c.o  -o cmTC_e241d 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-missing-declarations'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecadd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ecadd.dir/build.make CMakeFiles/cmTC_ecadd.dir/build
+Building C object CMakeFiles/cmTC_ecadd.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTC_ecadd.dir/src.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c"
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-missing-declarations'? [-Wunknown-warning-option]
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_ecadd
+/usr/local/Cellar/cmake/3.8.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecadd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_ecadd.dir/src.c.o  -o cmTC_ecadd 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-parameter', did you mean '-Wno-unused-parameter'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-unused-but-set-parameter'
+===== BUILD LOG =====
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f23a5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f23a5.dir/build.make CMakeFiles/cmTC_f23a5.dir/build
+Building C object CMakeFiles/cmTC_f23a5.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes  -O3 -DNDEBUG -fPIE   -Wno-unused-but-set-parameter -o CMakeFiles/cmTC_f23a5.dir/src.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c"
+warning: unknown warning option '-Wno-unused-but-set-parameter'; did you mean '-Wno-unused-parameter'? [-Wunknown-warning-option]
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_f23a5
+/usr/local/Cellar/cmake/3.8.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f23a5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_f23a5.dir/src.c.o  -o cmTC_f23a5 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-pointer-compare' [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-pointer-compare'
+===== BUILD LOG =====
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f76d2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f76d2.dir/build.make CMakeFiles/cmTC_f76d2.dir/build
+Building C object CMakeFiles/cmTC_f76d2.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -fPIE   -Wno-pointer-compare -o CMakeFiles/cmTC_f76d2.dir/src.c.o   -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c"
+warning: unknown warning option '-Wno-pointer-compare' [-Wunknown-warning-option]
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_f76d2
+/usr/local/Cellar/cmake/3.8.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f76d2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_f76d2.dir/src.c.o  -o cmTC_f76d2 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-missing-declarations'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_268e0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_268e0.dir/build.make CMakeFiles/cmTC_268e0.dir/build
+Building CXX object CMakeFiles/cmTC_268e0.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTC_268e0.dir/src.cxx.o -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-missing-declarations'? [-Wunknown-warning-option]
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_268e0
+/usr/local/Cellar/cmake/3.8.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_268e0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_268e0.dir/src.cxx.o  -o cmTC_268e0 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37cf9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_37cf9.dir/build.make CMakeFiles/cmTC_37cf9.dir/build
+Building CXX object CMakeFiles/cmTC_37cf9.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses  -O3 -DNDEBUG -fPIE   -Wno-maybe-uninitialized -o CMakeFiles/cmTC_37cf9.dir/src.cxx.o -c "/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/isfaaghyth/Machine Learning/CitraFiltering/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_37cf9
+/usr/local/Cellar/cmake/3.8.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37cf9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_37cf9.dir/src.cxx.o  -o cmTC_37cf9 
+
+===== END =====
+
